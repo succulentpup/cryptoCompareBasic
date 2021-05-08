@@ -1,0 +1,18 @@
+{
+  "name": "CryptoCompareBasic",
+  "version": "1.0.0",
+  "description": "Compares the crypto currencies fetched from websocket and with the GET API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.test.js"
+  },
+  "repository": "git@github.com:succulentpup/cryptoCompareBasic.git",
+  "author": "Ganesh Adapa <36997100+succulentpup@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "got": "^11.8.2",
+    "lodash.chunk": "^4.2.0",
+    "ws": "^7.4.5"
+  }
+}
